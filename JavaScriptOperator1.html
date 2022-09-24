@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Operator</title>
+</head>
+<body>
+    <h1 id="intro"></h1>
+    <h1 id="content"></h1>
+
+    <script type="text/javascript">
+        document.getElementById("intro").innerHTML = "Arithmetic Operator";
+        document.write("<br>");
+        document.getElementById("content").innerHTML = "Number of weeks in a year";
+        document.body.style.backgroundColor ="lightyellow"
+        document.write("<br>");
+        var a=365;
+        var b=7;
+        var c=a%b;
+        var d=a/b;
+
+        function e () {
+            document.writeln(d);
+            document.write("Weeks and ");
+            document.writeln(c);
+            document.write(" Days in there in a year");
+        }
+        e ();
+
+    </script>
+</body>
+</html>
