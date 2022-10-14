@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Function</title>
+</head>
+<body>
+    <h1>Form Validation</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <button type="button" id="button-submit">Submit</button>
+    </form>
+    <script type="text/javascript">
+        var buttonsubmit = document.getElementById('button-submit')
+
+        buttonsubmit.onclick = function() {
+            alert('Name must be filled out')
+        }
+    </script>
+</body>
+</html>
