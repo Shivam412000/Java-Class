@@ -1,59 +1,58 @@
-body{
-    font-family:'Roboto',
-    sans-serif;color:#000;
-}
-#container{
-    width:800px;
-    margin:50px auto;
-    padding:20px;
-    width:50%;
-}
-#container h2{
-    text-align:center;
-    color:#045;
-}
-#quoteContainer{
-    width:100%;
-    background:#fff;
-    padding:10px;
-    margin:30px auto;
-    text-align:center;
-}
-#buttonContainer{
-    width:100%;
-    text-align:center;
-}
-#quoteButton{
-    width:200px;
-    margin-top:10px;
-    border:2px solid#46b8da;
-    color:#045;
-    font-family:inherit;
-    font-weight:bold;
-    padding:5px;
-    text-decoration:none;
-    text-align:center;
-}
-#quoteButton:hover{
-    cursor:pointer;
-    background:#09c;
-    color:#fff;
-}
-#quoteButton:active{
-    cursor:pointer;
-}
-#quoteButton{
-    display:inline-block;
-}
-#quoteGenius{
-    font-style:italic;
-    font-weight:600;
-    text-align:center;
-}
-/*MEDIA QUERIES*/
-@media screen and(max-width:760px){
-    #quoteButton,#addNew{
-        display:block;
-    }
+form{
+    margin:50pxauto;
+    width:500px;
+    height:600px;
+    background-color:black;
 }
 
+label{
+    width:150px;
+    color:white;
+    margin:25px 50px 25px 0px;
+    font-size:1.5em;
+}
+
+input#feet{
+    height:40px;
+    width:200px;
+    padding-left:25px;
+    margin-left:20px;
+    font-size:1.5em;
+}
+
+input#inches{
+    height:40px;
+    width:200px;
+    padding-left:25px;
+    font-size:1.5em;
+}
+
+h1{
+    text-align:center;
+    color:white;
+    padding-top:50px;
+}
+
+.row{
+    width:400px;
+    text-align:left;
+    margin:25px auto;
+}
+
+#button{
+    background-color:red;
+    border:none;
+    color:white;
+    width:175px;
+    padding:5px 15px;
+    line-height:1.2em;
+    font-size:1.2em;
+    text-align:center;
+    margin:50px 120px;
+}
+
+#results{
+    color:yellow;
+    font-size:2.5em;
+    text-align:center;
+}
